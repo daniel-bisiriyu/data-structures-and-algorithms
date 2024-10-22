@@ -22,3 +22,10 @@ console.log(startNo1);
 console.log(startNo2);
 fibonacci(startNo1, startNo2);
 
+const f = (n) => {
+    if (n<=1) {
+        return n
+    }
+    return f(n-1) + f(n-2)
+}
+
