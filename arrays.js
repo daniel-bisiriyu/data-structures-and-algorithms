@@ -1,8 +1,9 @@
 const findLowest = (arr) => {
     let lowest = arr[0];
-    arr.forEach(element => {
+    for (let element of arr) {
         if (element < lowest) {
             lowest = element;
         }
-    });
+    }
+    return lowest
 }
